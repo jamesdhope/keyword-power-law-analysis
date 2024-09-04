@@ -11,13 +11,6 @@ This Python script generates and analyzes keyword frequency distributions, compa
 - `collections`
 - `nltk`
 
-Ensure you have the `nltk` words corpus downloaded:
-
-```python
-import nltk
-nltk.download('words')
-```
-
 ## Code Overview
 
 ### Generate Keywords
@@ -38,7 +31,6 @@ nltk.download('words')
 
 - Visualize the frequency distributions and power-law fits for both keyword sets.
 
-
 ## Output
 
 - **Keywords from Power-Law Set**: Prints top 10 keywords with their frequencies.
@@ -58,3 +50,5 @@ nltk.download('words')
 - Xmin: 1
 - Log-likelihood ratio: -1.56
 - p-value: 0.110
+
+![](keyword_frequency_distribution.png)

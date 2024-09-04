@@ -75,4 +75,6 @@ power_law_results.power_law.plot_ccdf(ax=ax[1], color='r', linestyle='--', label
 ax[1].legend()
 
 plt.tight_layout()
+
+fig.savefig('keyword_frequency_distribution.png')  # Save as PNG file
 plt.show()
